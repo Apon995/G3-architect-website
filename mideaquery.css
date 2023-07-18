@@ -1,0 +1,202 @@
+
+/* ---small-device-stylee---- */
+
+@media screen and (max-width: 576px) {
+  /* -----header-style---- */
+  header > nav {
+    display: block;
+    padding: 20px 0px;
+  }
+  header > nav > h1 {
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .header-content > h1 {
+    font-size: 2.5rem;
+  }
+  .header-content-box {
+    padding: 20px 4%;
+  }
+  .header-content > p {
+    font-size: 0.9rem;
+  }
+  .header-content > button {
+    font-size: 1rem;
+  }
+  header > nav > ul {
+    gap: 28px;
+  }
+  header > nav > ul > li {
+    padding: 0px 0px;
+    gap: 23px;
+  }
+  header > nav > ul > li > a {
+    font-size: 1rem;
+  }
+  .menubar {
+    left: 13px;
+    position: absolute;
+    top: 30px;
+    display: block;
+  }
+  .crossbar {
+    position: relative;
+    left: 12px;
+    display: block;
+  }
+
+  .side-bar {
+    position: relative;
+    top: 8px;
+    right: 360px;
+    background: rgba(255, 144, 14, 0.03);
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 0px;
+    transition: right 0.5s ease-in-out;
+  }
+
+  /* -----main-section-style--- */
+
+  .container {
+    padding: 50px 5%;
+    flex-direction: column;
+  }
+  .left-fl,
+  .right-fl {
+    flex-basis: 100%;
+  }
+
+  .left-fl {
+    margin-right: 0px;
+    grid-template-columns: 1fr;
+  }
+  .left-fl img {
+    overflow: auto;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .feature-content > h3 {
+    font-size: 2rem;
+  }
+  .feature-content > h3 > span {
+    font-size: 2rem;
+  }
+
+  .feature-content > h3 > p {
+    font-size: 2rem;
+  }
+
+  .feature-content > p {
+    font-size: 0.9rem;
+    padding: 10px 0px;
+  }
+  .right-fl {
+    margin: 20px 0px;
+    text-align: center;
+  }
+
+  .right-fl > button {
+    font-size: 1rem;
+  }
+
+  .feature-cards-box > h1 {
+    font-size: 2rem;
+  }
+  .feature-cards-box > p {
+    font-size: 0.9rem;
+  }
+  .feature-image-box > div {
+    font-size: 1.5rem;
+    padding: 20px 30px;
+  }
+
+  .award {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+  }
+}
+.sponser-box > h4 {
+  font-size: 1.5rem;
+}
+.sponser-box > p {
+  font-size: 0.9rem;
+}
+
+.sponser-box {
+  padding: 20px 5%;
+}
+.sponser-team > div > img {
+  width: 95%;
+}
+footer {
+  padding: 0px 0px;
+}
+
+.footer-section > p {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 50px 5%;
+    flex-wrap: wrap;
+  }
+  .right-fl,
+  .left-fl {
+    flex-basis: 100%;
+  }
+  .left-fl {
+    text-align: center;
+    margin-right: 0px;
+  }
+  .left-fl > img {
+    width: 90%;
+  }
+  .right-fl {
+    padding: 0px 7%;
+  }
+  .right-fl > button {
+    font-size: 1rem;
+  }
+
+  .feature-cards-box {
+    margin-right: 0px;
+  }
+
+  .feature-image-box {
+    flex-basis: 100%;
+  }
+
+  .feature-image-box > div {
+    font-size: 1.5rem;
+  }
+  .git3-fact {
+    padding: 10px 5%;
+  }
+  .award {
+    padding: 30px 5%;
+    gap: 0px;
+    justify-content: space-around;
+  }
+  .sponser-team {
+    gap: 0px;
+    padding: 35px 3%;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  footer {
+    padding: 0px 0px;
+  }
+  .footer-section > P {
+    font-size: 1.1rem;
+  }
+}
